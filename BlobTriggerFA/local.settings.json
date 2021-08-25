@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "sampletestblobin_STORAGE": "DefaultEndpointsProtocol=https;AccountName=sampletestblobin;AccountKey=KVsZjfkRLJWkJkfFhKzXtFu0oXkkpWCEsVuALkSSkEX6GoSIgOvB0FsABxmQegRNl/xrRGN5X0NxPvZv74SdoA==;EndpointSuffix=core.windows.net"
+  }
+}

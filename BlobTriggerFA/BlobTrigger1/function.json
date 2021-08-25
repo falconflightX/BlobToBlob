@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "blobin",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "sample/{blobname}.{blobextension}",
+      "connection": "DefaultEndpointsProtocol=https;AccountName=sampletestblobin;AccountKey=KVsZjfkRLJWkJkfFhKzXtFu0oXkkpWCEsVuALkSSkEX6GoSIgOvB0FsABxmQegRNl/xrRGN5X0NxPvZv74SdoA==;EndpointSuffix=core.windows.net"
+    },
+    {
+      "name": "blobout",
+      "type": "blob",
+      "direction": "out",
+      "path": "sampleout/{blobname}_structured.csv",
+      "connection": "DefaultEndpointsProtocol=https;AccountName=sampletestblobin;AccountKey=KVsZjfkRLJWkJkfFhKzXtFu0oXkkpWCEsVuALkSSkEX6GoSIgOvB0FsABxmQegRNl/xrRGN5X0NxPvZv74SdoA==;EndpointSuffix=core.windows.net"
+    }
+  ]
+}
